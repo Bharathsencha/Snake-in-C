@@ -25,7 +25,7 @@ void ResetGame(Snake *snake, Vector2Int *food, int *score) {
 
 int main(void) {
     InitWindow(GRID_WIDTH * CELL_SIZE, GRID_HEIGHT * CELL_SIZE, "Snake Game");
-    SetTargetFPS(20); 
+    SetTargetFPS(10); 
 
     Snake snake;
     Vector2Int food;
